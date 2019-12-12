@@ -2,6 +2,8 @@
 
 ## Installation Steps
 
+### Configurando ambiente
+
 1. Instalar o React app a partir da CLI de create
    `yarn create react-app modulo12`
 
@@ -30,4 +32,12 @@
 
 11. Adicionar no package.json as configs necessárias ao funcionamento das novas libs
 
-12.
+### Primeiro teste
+
+12. Criar o componente TechList com o boilerplate de função React só para validar no TDD
+
+13. Excluir o teste antigo e criar um novo arquivo de teste para o componente TechList
+
+14. Criar o novo teste para verificar se há o elemento procurado dentro da lista do componente
+
+15.
