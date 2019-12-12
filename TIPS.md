@@ -40,4 +40,17 @@
 
 14. Criar o novo teste para verificar se há o elemento procurado dentro da lista do componente
 
-15.
+15. Ajustar o componente TechList para mostrar a lista ao clicar no botão. E executar teste.
+
+### Testando formulário
+
+16. Alterar o Teste para, não apenas clicar num botão, mas inserir um texto no input
+    do componente e dar submit, bem como receber a resposta e validar
+
+17. Adicionar as novas funcionalidades ao Componente TechList
+
+18. Adicionar outro expect() para verificar que o imput esteja vazio
+
+### Mock do LocalStorage
+
+19.
