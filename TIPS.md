@@ -53,4 +53,16 @@
 
 ### Mock do LocalStorage
 
-19.
+19. Criar o novo teste para verificar se o texto ainda permanece armazenado, mesmo
+    após a limpeza e renderização da DOM
+
+20. Ir no componente e criar as funcionalidades para persistir os dados
+
+21. Como o teste não deve realizar integrações com APIs ou elementos de browser externos,
+    a melhor alternativa para validar o teste é criar um mock, logo instalar a lib abaixo
+    `yarn add jest-localstorage-mock -D`
+
+22. Configurar no package.json em setupFilesAfterEnv adicionando o mock
+
+23. Com o mock instalado, podemos criar um novo expect() para verificar se determinada
+    função foi chamada e aprimorar o nosso teste.
