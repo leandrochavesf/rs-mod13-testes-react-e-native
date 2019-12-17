@@ -66,3 +66,18 @@
 
 23. Com o mock instalado, podemos criar um novo expect() para verificar se determinada
     função foi chamada e aprimorar o nosso teste.
+
+### Mock do UseSelector
+
+24. Criar um novo test enxuto e renomear o antigo para não ser lido como teste
+
+25. Fazer o mesmo para o index.js e apagar o useEffect da nova cópia
+
+26. Instalar o redux
+    `yarn add redux react-redux`
+
+27. Aplicar o useSelector no index.js
+
+28. Aplicar também o useDispatch no index.js
+
+29. Configurar o test implementando o mock para funcionar o teste do useSelector
