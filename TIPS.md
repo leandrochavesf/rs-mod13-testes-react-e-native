@@ -67,7 +67,7 @@
 23. Com o mock instalado, podemos criar um novo expect() para verificar se determinada
     função foi chamada e aprimorar o nosso teste.
 
-### Mock do UseSelector
+### Mock do useSelector
 
 24. Criar um novo test enxuto e renomear o antigo para não ser lido como teste
 
@@ -81,3 +81,17 @@
 28. Aplicar também o useDispatch no index.js
 
 29. Configurar o test implementando o mock para funcionar o teste do useSelector
+
+### Mock do useDispatch
+
+30. Criar um novo teste `it()` para verificar o uso do useDispatch
+
+31. Para o tste ficar ainda mais parecido com a situação real, emcapsular a action
+    seguindo a estrutura de pastas e arquivos.
+    src/store/modules/techs/actions.js
+
+32. Importar a action no dentro do componente
+
+33. Importar a action em TechList.test.js também.
+
+34. Alterar o expect para usar a função encapsulada
