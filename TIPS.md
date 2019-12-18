@@ -95,3 +95,18 @@
 33. Importar a action em TechList.test.js também.
 
 34. Alterar o expect para usar a função encapsulada
+
+### Testando reducers
+
+35. Testar reducers, para isso, primeiro criar arquivo
+    src/store/modules/techs/reducers.js
+
+36. Instalar o Immer que auxilia na produção de estado imutável
+    `yarn add immer`
+
+37. Desenvolver o reducer usando o immer
+
+38. Criar um novo test em
+    src/\_\_testes\_\_/store/reducers/tech.test.js
+
+39. Importar as actions e reducers, e conferir se a chamada executa da forma esperada
