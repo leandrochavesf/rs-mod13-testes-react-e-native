@@ -110,3 +110,29 @@
     src/\_\_testes\_\_/store/reducers/tech.test.js
 
 39. Importar as actions e reducers, e conferir se a chamada executa da forma esperada
+
+### Testando sagas
+
+40. Instalar o Redux-saga
+    `yarn add redux-saga`
+
+41. Criar arquivo de Sagas
+    /src/store/modules/sagas.js
+
+42. Criar um services para conexão com BD
+    /src/services/api.js
+
+43. Instalar o axios
+    `yarn add axios`
+
+44. Desenvolver a api.js usando o axios. Lembrando que jamais os testes devem chamar
+    uma api real, apenas api de forma mockada
+
+45. Adicionar functions de GetTechs nas actions
+
+46. Desenvolver as sagas
+
+47. Criar o test de sagas
+    /src/\_\_tests\_\_/store/sagas/techs.test.js
+
+48. Desenvolver o test de sagas usando chamadas das actions e dos sagas de GetTechs
