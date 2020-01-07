@@ -136,3 +136,14 @@
     /src/\_\_tests\_\_/store/sagas/techs.test.js
 
 48. Desenvolver o test de sagas usando chamadas das actions e dos sagas de GetTechs
+
+### Mock do Axios
+
+49. Instalar o mock do axios
+    `yarn add axios-mock-adapter -D`
+
+50. no test de store `techs`, aplicar o mock do axios
+
+51. Executar teste e verificar que está passando
+
+52. Criar test `it` para verificar falha da api
