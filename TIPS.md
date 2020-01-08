@@ -147,3 +147,14 @@
 51. Executar teste e verificar que está passando
 
 52. Criar test `it` para verificar falha da api
+
+### Coverage report
+
+53. Ir no package.json e aplicar o parametro para o diretório do coverage. Esse parametro
+    apresenta em formato HTML um relatório sobre os testes, inclusive informando onde ainda
+    precisa ser realizado mais testes
+
+54. Adicionar no package.json o collectCoverage para excluir os arquivos não interessantes
+    a serem monitorados
+
+55. Criar um novo teste para verificar a condição INITIAL_STATE do reducer
